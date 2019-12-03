@@ -15,7 +15,7 @@ output_dir: /tmp/workdir                # Writable working scratch directory
 email: name@example.com                 # User info for notifications
 
 guid: c5eb                           # Your Global UNIQUE Identifier
-subdomain_base_suffix: sandbox60.opentlc.com  # Your domain used with guid in FQDN
+subdomain_base_suffix: .sandbox60.opentlc.com  # Your domain used with guid in FQDN
 
 # Path to your yum repos
 
