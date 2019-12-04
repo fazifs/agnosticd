@@ -10,11 +10,11 @@
 # Credentials can also be set seperately i.e. ~/secrets.yml and passed in with
 # a 2nd `-e` argument i.e. -e ~/secrets.yml
 
-env_type: three-tier-app                # Name of config to deploy
+env_type: just-some-nodes-example                # Name of config to deploy
 output_dir: /tmp/workdir                # Writable working scratch directory
 email: name@example.com                 # User info for notifications
 
-guid: c5eb-faz                          # Your Global UNIQUE Identifier
+guid: c5eb-faz-1                          # Your Global UNIQUE Identifier
 subdomain_base_suffix: .sandbox60.opentlc.com  # Your domain used with guid in FQDN
 
 # Path to your yum repos
