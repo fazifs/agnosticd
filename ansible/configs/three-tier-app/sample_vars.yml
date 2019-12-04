@@ -19,7 +19,7 @@ subdomain_base_suffix: .sandbox60.opentlc.com  # Your domain used with guid in F
 
 # Path to your yum repos
 
-own_repo_path: http://admin.example.com/repos/version
+own_repo_path: http://d3s3zqyaz8cp2d.cloudfront.net/repos/ocp/4.2.0
 
 # Cloud specfic settings - example given here for AWS
 
