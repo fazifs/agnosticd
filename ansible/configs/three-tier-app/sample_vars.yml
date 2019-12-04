@@ -14,17 +14,17 @@ env_type: just-some-nodes-example                # Name of config to deploy
 output_dir: /tmp/workdir                # Writable working scratch directory
 email: name@example.com                 # User info for notifications
 
-guid: c5eb-faz-1                          # Your Global UNIQUE Identifier
+guid: faz-blah                          # Your Global UNIQUE Identifier
 subdomain_base_suffix: .sandbox60.opentlc.com  # Your domain used with guid in FQDN
 
 # Path to your yum repos
 
-own_repo_path: http://d3s3zqyaz8cp2d.cloudfront.net/repos/ocp/4.2.0
+
 
 # Cloud specfic settings - example given here for AWS
 
 cloud_provider: ec2                     # Which AgnosticD Cloud Provider to use
-aws_region: us-west-1                   # AWS Region to deploy in
+aws_region: eu-central-1                   # AWS Region to deploy in
 HostedZoneId: Z1VEEC8B3WKWIK            # You will need to change this
 key_name: ocpworkshop                        # Keyname must exist in AWS
 
